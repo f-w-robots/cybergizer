@@ -14,15 +14,29 @@ body{
   
 }
 header{
-	background-color: rgba(229, 229, 229, 1);
+	background-color: #ededed;
 	position: fixed;
 	width: 100%;
 	    z-index: 99999;
 
 }
+#ornament_top {
+  height: 10px;
+  background: url(../images/ornament_top.png) repeat-x;
+  position: fixed;
+  top: 55px;
+  width: 100%;
+  z-index: 99998;
+}
+#ornament_bottom {
+  height: 10px;
+  background: url(../images/ornament_bottom.png) repeat-x;
+  position: relative;
+  width: 100%;
+}
 .headerContent{
 	position: relative;
-	height: 58px;
+	height: 55px;
 }
 .cybergizer{
 	position: absolute;
@@ -133,7 +147,7 @@ section{
 }
 .contentLogo{
 	position: absolute;
-	top:140px;
+	top:105px;
 	left: 30px;
 }
 
