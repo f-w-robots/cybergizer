@@ -22,7 +22,7 @@ header{
 }
 .headerContent{
 	position: relative;
-	height: 72px;
+	height: 58px;
 }
 .cybergizer{
 	position: absolute;
@@ -32,6 +32,8 @@ header{
 }
 .cybergizer img{
 	float: left;
+  width: 65px;
+  margin-top: 2px;
 }
 .cybergizer span{
 	font-size: 24px;
@@ -40,19 +42,19 @@ header{
 	font-family: Raleway, sans-serif;
 	font-weight: bold;
 	display: block;
-  margin: 4px 0px -6px 66px;
+  margin: 2px 0px -6px 66px;
 }
 .cybergizer p{
 	display: block;
 	width: 250px;
 	font-family: 'Open Sans', sans-serif;
-	font-size:19px;
-	margin-left: 66px;
+	font-size:15px;
+	margin: 0 0 0 66px;
 }
 .desktopMenu{
 	position: absolute;
 	right: 30px;
-	top: 25px;
+	top: 20px;
 
 }
 .menuItem{
