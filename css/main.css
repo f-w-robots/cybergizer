@@ -31,7 +31,8 @@ header{
 #ornament_bottom {
   height: 10px;
   background: url(../images/ornament_bottom.png) repeat-x;
-  position: relative;
+  position: absolute;
+  top: -10px;
   width: 100%;
 }
 .headerContent{
@@ -210,6 +211,7 @@ section{
 
 footer{
 	    background-color: rgb(59, 186, 181);
+      position: relative;
 
 }
 .footer-content{
