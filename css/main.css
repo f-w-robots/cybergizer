@@ -503,6 +503,9 @@ section {
 }
 
 /* Servises.html*/
+.site_content{
+  padding-bottom: 5px;
+}
 
 .content_page{
 	position: relative;
