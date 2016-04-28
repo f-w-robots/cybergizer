@@ -507,6 +507,7 @@ section {
 .content_page{
 	position: relative;
 	padding-top: 72px;
+  background-color: #fff;
 }
 .site_content_H1{
 	font-family: Raleway, sans-serif;
