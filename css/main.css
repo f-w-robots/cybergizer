@@ -292,6 +292,13 @@ footer{
 	left: 58px;
 
 }
+body, footer {
+      background-color: rgb(59, 186, 181);
+    
+}
+section {
+    background: #fff;
+}
 
 @media (max-width: 930px){
 	.menuItem {
