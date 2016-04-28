@@ -26,8 +26,8 @@ header{
   position: fixed;
   top: 55px;
   width: 100%;
-  z-index: 99998;
-}
+  }
+
 #ornament_bottom {
   height: 10px;
   background: url(../images/ornament_bottom.png) repeat-x;
@@ -99,7 +99,7 @@ header{
 
 .mobileMenu{
 	position: absolute;
-	top:20px;
+	top:14px;
 	right: 30px;
 	display: none;
 }
@@ -112,12 +112,15 @@ header{
 	border-radius: 4px;
 }
 .dropdown-menu{
-	left: -115px;
-	font-size: 13px;
+	    left: -153px;
+    font-size: 20px;
     line-height: 1.2em;
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
     color: #383838;
+}
+.dropdown-menu>li>a {
+  padding: 9px 43px;
 }
 
 section{
@@ -412,14 +415,14 @@ footer{
   .footerCall {
     
     display: -webkit-box;
-    margin: 15px auto;
+   margin: 15px 0px 15px 25%;
   }
   .footerCop{
   	display: -webkit-box;
   	display: -moz-box;
   	display: -ms-box;
   	display: -o-box;
-    margin: 11px auto;
+    margin: 15px 0px 15px 25%;
   }
   .footerMenu {
     padding-top: 6px;
@@ -452,10 +455,10 @@ footer{
     width: 303px;
   }
   .contentH1 span{
-  	font-size: 76;
+  	font-size: 74px;
   }
   .contentH1 p{
-  	font-size: 32px;
+  	font-size: 31px;
   }
  
   .cybergizer{
@@ -483,6 +486,12 @@ footer{
   }
   .mobileMenu{
   	right: 15px;
+  }
+  .contentH1 span{
+    font-size: 70px;
+  }
+  .contentH1 p{
+    font-size: 28px;
   }
 }
 
